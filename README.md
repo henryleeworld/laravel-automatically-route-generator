@@ -1,4 +1,4 @@
-# Laravel 8 自動路由產生器
+# Laravel 9 自動路由產生器
 
 引入 izniburak 的 laravel-auto-routes 套件來擴增自動路由產生器，可以方便地生成網址或為特定路由重定向。
 
