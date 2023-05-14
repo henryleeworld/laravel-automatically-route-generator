@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class ExampleController extends Controller
 {
     /**
-     * URL: "/test/{id}"
+     * URL: "/example/{id}"
      * id parameter must be numeric.  
      */
     public function index(Request $request, int $id)
@@ -16,11 +16,11 @@ class ExampleController extends Controller
     }
     
     /**
-     * URL: "/test/foo-bar/{name}/{surname?}"
+     * URL: "/example/full-name/{name}/{surname?}"
      * name and surname parameters must be string.
      */
-    public function showFullName(Request $request, string $name, string $surname = null)
+    public function fullName(Request $request, string $name, string $surname = null)
     {
-        return $surname . $name;
+        return $surname . ' ' . $name;
     }
 }

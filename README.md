@@ -1,4 +1,4 @@
-# Laravel 9 自動路由產生器
+# Laravel 10 自動路由產生器
 
 引入 izniburak 的 laravel-auto-routes 套件來擴增自動路由產生器，可以方便地生成網址或為特定路由重定向。
 
@@ -16,19 +16,11 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
-- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
-```sh
-$ php artisan migrate
-```
-- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
-```sh
-$ npm install && npm run dev
-```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
-- 你可以經由 `/example/{編號}` 來進行範例編號顯示瀏覽。
+- 你可以經由 `/example/full-name/{名稱}/{姓氏}` 來進行範例全名顯示瀏覽。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/H7Jpg24.png)
+![](https://i.imgur.com/L3Y6cqk.png)
 > 所有將自動生成的方法必須存取權限完全的公開才能發現
