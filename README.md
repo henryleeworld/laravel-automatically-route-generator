@@ -1,4 +1,4 @@
-# Laravel 10 自動路由產生器
+# Laravel 11 自動路由產生器
 
 引入 izniburak 的 laravel-auto-routes 套件來擴增自動路由產生器，可以方便地生成網址或為特定路由重定向。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/L3Y6cqk.png)
+![](https://i.imgur.com/HDDsSte.png)
 > 所有將自動生成的方法必須存取權限完全的公開才能發現
